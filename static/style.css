@@ -1,0 +1,113 @@
+/* General body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Glu1.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #0c0c0c;
+}
+
+/* Main container styling */
+.container {
+    background-color: rgba(252, 0, 0, 0); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 15px;
+    width: 500px;
+    height:300px;
+
+    text-align: center;
+}
+
+/* Title styling */
+h2 {
+    color: #080000e7;
+    margin-bottom: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.5); /* Semi-transparent black background */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Form group container */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Form labels */
+label {
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    background-color: #6d6d77;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #2e0af7;
+}
+
+/* Additional button for navigation */
+button[type="button"] {
+    background-color: #8b889e;
+    margin-top: 10px;
+}
+
+/* Button hover effect for navigation button */
+button[type="button"]:hover {
+    background-color: #555;
+}

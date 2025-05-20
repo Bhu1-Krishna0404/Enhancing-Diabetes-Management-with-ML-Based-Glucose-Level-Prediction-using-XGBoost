@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Glucose Prediction - Input</title>
+    <link rel="stylesheet" href="static/index.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Blood Glucose Prediction</h2>
+        <form method="POST" action="/predict">
+            <div class="form-group">
+                <label for="Age">Age:</label>
+                <input type="text" id="Age" name="Age" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Insulin">Insulin:</label>
+                <input type="text" id="Insulin" name="Insulin" required>
+            </div>
+
+            <div class="form-group">
+                <label for="BMI">BMI:</label>
+                <input type="text" id="BMI" name="BMI" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Diabetes">Diabetes:</label>
+                <input type="text" id="Diabetes" name="Diabetes" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Blood_Pressure">Blood Pressure:</label>
+                <input type="text" id="Blood_Pressure" name="Blood_Pressure" required>
+            </div>
+
+            <button type="submit">Predict</button>
+        </form>
+        <button onclick="window.location.href='/'">Back to Home</button>
+    </div>
+</body>
+</html>

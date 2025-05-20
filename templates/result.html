@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="static/style1.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="/predict">Try Again</a>
+        <a href="/">Home</a>
+        <a href="/chart">Chart</a>
+        <a href="/logout">Logout</a>
+    </div>
+
+    <div class="container">
+        <h2>Prediction Result</h2>
+        <div class="result-box">
+            <p class="result-text">
+                {{ prediction_text }}
+            </p>
+        </div>
+    </div>
+</body>
+</html>

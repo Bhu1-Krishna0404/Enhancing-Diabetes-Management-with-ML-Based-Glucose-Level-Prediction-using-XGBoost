@@ -1,0 +1,57 @@
+/* General styles for body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Glu1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #0c0c0c;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255,0.3); /* White background */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+}
+
+/* Heading style */
+h2 {
+    color: #080000e7; /* Bootstrap primary color */
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph style */
+p {
+    font-size: 1rem;
+    color: #6c757d; /* Bootstrap secondary color */
+    margin-bottom: 1.5rem;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #6d6d77; /* Bootstrap primary button color */
+    color: white;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7; /* Slightly darker blue for hover effect */
+    text-decoration: none; /* Remove underline on hover */
+}

@@ -1,0 +1,68 @@
+/* General styles for the body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Glu1.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+/* Container for content */
+.container {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+/* Title styling */
+h2 {
+    color: #080201;
+    margin-bottom: 20px;
+}
+
+/* Result box styles */
+.result-box {
+    background-color: rgba(0, 0, 0, 0.1); /* Light green for results */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-text {
+    font-size: 1.2em;
+    color: #0a0a0a; /* Dark green for result text */
+    font-weight: bold;
+}
+
+/* Buttons styling */
+button {
+    background-color: #8b889e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2e0af7;
+}
+
+/* Button alignment */
+button:focus {
+    outline: none;
+}

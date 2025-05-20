@@ -1,0 +1,127 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.5); /* Adjusted opacity */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    box-sizing: border-box; /* Added to handle border & padding */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Form group container */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Form labels */
+label {
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    background-color: #6d6d77;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2e0af7;
+}
+
+/* Additional button for navigation */
+button[type="button"] {
+    background-color: #8b889e;
+    margin-top: 10px;
+}
+
+/* Button hover effect for navigation button */
+button[type="button"]:hover {
+    background-color: #555;
+}
+
+/* Centering the content */
+.container {
+    text-align: center;
+    margin-top: 5rem; /* Added more spacing from top for a cleaner look */
+}
+
+/* Heading styling */
+h2 {
+    color: #007bff;
+}
+
+/* Canvas size */
+canvas {
+    width: 600px;
+    height: 600px;
+    max-width: none;
+    margin: 2rem auto;
+}
+
+/* Margin for elements with the class .mt-4 */
+.mt-4 {
+    margin-top: 1rem;
+}
+
+/* Button with class .btn */
+.btn {
+    background-color:#6d6d77; /* Explicit alpha value for clarity */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
